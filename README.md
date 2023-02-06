@@ -17,3 +17,8 @@ Describe: else {}
 Test: "It will find the index of the first vowel"
 Code: else { let index = firstVowelIndex(word);}
 Expected Output: undefined;
+
+Describe: word.slice(index)
+Test: "It will move all the consonants before the first vowel to the end"
+Code: let pigLatinWord = word.slice(index) + word.slice(0, index) + "ay"; pigLatinWords.push(pigLatinWord);
+Expected Output: undefined;

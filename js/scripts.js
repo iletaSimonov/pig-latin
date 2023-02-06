@@ -10,5 +10,7 @@ function pigLatin(sentence) {
     pigLatinWords.push(word + 'way');
   } else {
     let index = firstVowelIndex(word);
+    let pigLatinWord = word.slice(index) + word.slice(0, index) + "ay";
+    pigLatinWords.push(pigLatinWord);
   }
 }
