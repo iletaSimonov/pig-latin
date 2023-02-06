@@ -4,7 +4,7 @@ function pigLatin(sentence) {
 
   for (let i = 0; i < words.length; i++) {
     let word = words[i];
-  }
+  
 
   if (isVowel(word[0])) {
     pigLatinWords.push(word + 'way');
@@ -14,3 +14,6 @@ function pigLatin(sentence) {
     pigLatinWords.push(pigLatinWord);
   }
 }
+
+return pigLatinWords.join(" ");
+};

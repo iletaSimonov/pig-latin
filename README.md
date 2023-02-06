@@ -22,3 +22,8 @@ Describe: word.slice(index)
 Test: "It will move all the consonants before the first vowel to the end"
 Code: let pigLatinWord = word.slice(index) + word.slice(0, index) + "ay"; pigLatinWords.push(pigLatinWord);
 Expected Output: undefined;
+
+Describe: return and join()
+Test: "returns the sentence in pig latin"
+Code: return pigLatinWords.join(" ");
+Expected Output: undefined;
