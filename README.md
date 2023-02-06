@@ -12,3 +12,8 @@ Describe: if()
 Test: "It will check if the first letter is a vowel and push 'way'"
 Code: (isVowel(word[0])) {pigLatinWords.push(word + "way");}
 Expected Output: undefined;
+
+Describe: else {}
+Test: "It will find the index of the first vowel"
+Code: else { let index = firstVowelIndex(word);}
+Expected Output: undefined;
