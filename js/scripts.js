@@ -26,4 +26,13 @@ function firstVowelIndex(word) {
   if (word.slice(0,2).toLowerCase() === "qu") {
     return 2;
   }
+
+
+for (let i = 0; i < word.length; i++) {
+  if(isVowel(word[i])) {
+    return i;
+    }
+  }
 }
+
+

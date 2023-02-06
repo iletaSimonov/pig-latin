@@ -39,4 +39,10 @@ Code: function firstVowelIndex(word) {
   if (word.slice(0, 2).toLowerCase() === "qu"){ return 2;}
 } Expected Outcome: undefined;
 
-
+Describe: for(let i=0;)
+Test: "It will return the index of the first vowel"
+Code: for (let i=0; i < word.length; i++) {
+  if(isVowel(word[i])) {
+    return i;
+  }
+} Expected Outcome: Undefined;
