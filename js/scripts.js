@@ -17,3 +17,13 @@ function pigLatin(sentence) {
 
 return pigLatinWords.join(" ");
 };
+
+function isVowel(letter) {
+  return "aeiou".includes(letter.toLowerCase());
+}
+
+function firstVowelIndex(word) {
+  if (word.slice(0,2).toLowerCase() === "qu") {
+    return 2;
+  }
+}

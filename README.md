@@ -24,6 +24,19 @@ Code: let pigLatinWord = word.slice(index) + word.slice(0, index) + "ay"; pigLat
 Expected Output: undefined;
 
 Describe: return and join()
-Test: "returns the sentence in pig latin"
+Test: "It will return the sentence in pig latin"
 Code: return pigLatinWords.join(" ");
 Expected Output: undefined;
+
+Describe: function isVowel(letter)
+Test: "It will check if letter is vowel"
+Code: function isVowel(letter) {return "aeiou".includes.toLowerCase());}
+Expected Output: undefined;
+
+Describe: function firstVowelIndex(word)
+Test: "It will find the index of the first vowel"
+Code: function firstVowelIndex(word) {
+  if (word.slice(0, 2).toLowerCase() === "qu"){ return 2;}
+} Expected Outcome: undefined;
+
+
